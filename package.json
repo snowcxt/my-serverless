@@ -1,0 +1,17 @@
+{
+  "name": "my-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "node_modules/.bin/serverless offline start",
+    "debug": "node_modules/.bin/node-debug sls offline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-inspector": "^1.1.1",
+    "serverless": "^1.24.1",
+    "serverless-offline": "^3.16.0"
+  }
+}
